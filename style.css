@@ -7,6 +7,15 @@ body{
 }
 p{
   text-align: center;
+  front-size:20px;
+}
+#missao{
+  front-size:30px;
+}
+#banner{
+  width:100%;
+}
+h1{
 }
 em strong{
   color: blue;
