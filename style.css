@@ -1,15 +1,37 @@
 *{
   margin: 0;
-padding: 0;
+  padding: 0;
 }
 body {
-    background: #CCCCCC
+ 
 }
 
 #banner {
     width: 100%;
 }
-
+.principal{
+  background: #CCCCCC
+  padding: 30px;
+}
+.itens{
+  front-style: italic;
+}
+.beneficios{
+  background: #FFFFFF
+  padding: 20px;
+}
+h2{
+  text-align: center;
+}
+ul{
+  display: inline-block;
+  vertical-aling: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.imagem-beneficios{
+  width:50%
+}
 h1 {
     text-align: center
 }
@@ -23,5 +45,5 @@ p {
 }
 
 em strong {
-    color: #FF0000;
+    color: #purple;
 }
