@@ -23,3 +23,29 @@ nav a{
   front-size: 22px;
   text-decoration: none;
 }
+.produtos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.produtos li{
+  display: inline-block;
+  text-alingn: center;
+  width: 30%;
+  vertical-aling: top;
+  margin:0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+.produtos h2{
+  front-size: 30px;
+  front-weight: bold;
+}
+.produtos-descricao-preco{
+  front-size: 18px;
+}
+.produtos-decricao-texto{
+  front-size: 22px;
+  front-weight: bold;
+  margin-top: 10px;
+}
