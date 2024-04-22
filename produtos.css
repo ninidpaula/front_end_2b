@@ -1,5 +1,5 @@
 header{
-  background: #BBBBBB
+  background: #BBBBBB;
   padding: 20px 0;
 }
 .caixa{
@@ -17,10 +17,10 @@ nav li{
   margin: 0 0 0 15px;
 }
 nav a{
-  tex-transform: uppercase;
+  text-transform: uppercase;
   color: #fa4b68;
-  front-weight: bold;
-  front-size: 22px;
+  font-weight: bold;
+  font-size: 22px;
   text-decoration: none;
 }
 nav a:hover{ 
@@ -34,9 +34,9 @@ nav a:hover{
 }
 .produtos li{
   display: inline-block;
-  text-alingn: center;
+  text-align: center;
   width: 30%;
-  vertical-aling: top;
+  vertical-align: top;
   margin:0 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
@@ -50,17 +50,17 @@ nav a:hover{
   border-color: blue;
 }
 .produtos li:hover h2{
-  front-size: 34px;
+  font-size: 34px;
 }
 .produtos h2{
-  front-size: 30px;
-  front-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 .produtos-descricao-preco{
-  front-size: 18px;
+  font-size: 18px;
 }
 .produtos-decricao-texto{
-  front-size: 22px;
-  front-weight: bold;
+  font-size: 22px;
+  font-weight: bold;
   margin-top: 10px;
 }
