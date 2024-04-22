@@ -43,6 +43,15 @@ nav a:hover{
   border: 2px solid #000000;
   border-radius: 10px;
 }
+.produtos li:hover{
+  border-color: green;
+}
+.produtos li:active{
+  border-color: blue;
+}
+.produtos li:hover h2{
+  front-size: 34px;
+}
 .produtos h2{
   front-size: 30px;
   front-weight: bold;
