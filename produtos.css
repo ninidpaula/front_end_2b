@@ -56,10 +56,10 @@ nav a:hover{
   font-size: 30px;
   font-weight: bold;
 }
-.produtos-descricao-preco{
+.produtos-descricao{
   font-size: 18px;
 }
-.produtos-descricao-texto{
+.produtos-preco{
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
