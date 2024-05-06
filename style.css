@@ -20,7 +20,7 @@ body {}
 }
 
 .titulo-secundario {
-  text-aling: center;
+  text-align: center;
 }
 
 p {
@@ -36,20 +36,20 @@ em strong {
 }
 
 .itens {
-  front-style: italic;
+  font-style: italic;
 }
 
 .beneficios {
-  background: #FFFFFF padding: 20px;
+  background: #FFFFFF; padding: 20px;
 }
 
 ul {
-  display-inline: block;
-  vertical-aling: top;
+  display: inline-block;
+  vertical-align: top;
   width: 20%;
   margin-right: 15%;
 }
 
 .imagem-beneficios {
-  width: 50%
+  width: 50%;
 }
