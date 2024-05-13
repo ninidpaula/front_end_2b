@@ -95,3 +95,19 @@ form label, legend{
 .checkbox{
   margin: 20px 0;
 }
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: pink;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transitions: 1s all;
+  cursor: ponter;
+}
+.enviar:hover {
+  background: dark orange;
+  transform: scale(12);
+}
