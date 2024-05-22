@@ -1,7 +1,31 @@
-    <img id="banner" src="banner.jpg">
-    <div class="principal">
-        <h2> Sobre a Barbearia Alura </h2>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Produtos - Barbearia Alura</title>
 
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="produtos.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+     <img id="banner" src="banner.jpg">
+      <main>
+       <section class="principal">
+        <h2> Sobre a Barbearia Alura </h2>
+    <img class="utensilios"src="utensilios.jpg" alt="utensilios">
 
         <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor
             para o seu cabelo e barba.
@@ -13,8 +37,8 @@
         <p> Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.
             O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos
             clientes.</p>
-    </div>
-    <div class="beneficios">
+    </section>
+    <section class="beneficios">
         <h3 class="Titulo-secundario">Benefícios</h3>
         <ul>
             <li class="itens">Atendimento aos clientes</li>
@@ -23,3 +47,33 @@
             <li class="itens">Profissionais qualificados</li>
         </ul>
         <img src="beneficios.jpg" class="imagem-beneficios"
+		</section>
+	</main>
+		<section>
+			<ul class="produtos">
+				<li>
+					<h2>Cabelo</h2>
+					<img src="cabelo.jpg">
+					<p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
+					<p class="produto-preco">R$ 25,00</p>
+				</li>
+				<li>
+					<h2>Barba</h2>
+					<img src="barba.jpg">
+					<p class="produto-descricao">Corte e desenho profissional de barba</p>
+					<p class="produto-preco">R$ 25,00</p>
+				</li>
+				<li>
+					<h2>Cabelo e Barba</h2>
+					<img src="cabelo+barba.jpg">
+					<p class="produto-descricao">Pacote completo de cabelo e barba</p>
+					<p class="produto-preco">R$ 45,00></p>
+				</li>
+			</ul>
+                </section>
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyright">&copy; Nini-2B 2024</p>
+	    </footer>
+	</body>
+</html>
