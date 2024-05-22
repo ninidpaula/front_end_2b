@@ -112,7 +112,9 @@ form label, legend{
   transform: scale(12);
 }
 
-body {}
+body {
+  font-family:'montserrat', sans-serif;
+}
 
 .banner {
   width: 100%;
