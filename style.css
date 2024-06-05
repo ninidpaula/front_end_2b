@@ -247,17 +247,6 @@ td, th {
 	margin: 2em auto;
 }
 
-
-/* Proxima aula
-
-*inserir na linha 171 
-.principal {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 940px;
-	margin: 0 auto;
-}
-
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
@@ -274,6 +263,16 @@ td, th {
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
     }
+} 
+
+/* Proxima aula
+
+*inserir na linha 171 
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
 }
 
 * inserir entre .mapa e .mapa p
